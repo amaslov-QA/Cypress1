@@ -1,0 +1,25 @@
+{
+  "name": "cypress1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mobile:headed": "cypress run --browser electron --headed --config-file cypress.env.json",
+    "mobile:headless": "cypress run --browser firefox --headless --config-file cypress.env.json",
+    "laptop:headed": "cypress run --browser edge--headed --config-file cypress.json",
+    "laptop:headless": "cypress run --browser chromium--headless --config-file cypress.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaslov-QA/Cypress1.git"
+  },
+  "author": "maslovaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaslov-QA/Cypress1/issues"
+  },
+  "homepage": "https://github.com/amaslov-QA/Cypress1#readme",
+  "dependencies": {
+    "cypress": "^9.5.4"
+  }
+}
